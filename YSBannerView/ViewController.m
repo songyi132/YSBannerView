@@ -17,7 +17,7 @@
     [super viewDidLoad];
     
     self.dataArray = @[@"1.jpeg",@"2.jpeg",@"3.jpeg",@"4.jpeg"];
-    YSBannerView * bannerView = [[YSBannerView alloc] initWithFrame:CGRectMake(0, 30, self.view.frame.size.width, 100) placeholderBGImage:nil currentPage:0 showDataArr:_dataArray timeInterval:3 direction:(YSBannerViewLandscape) tag:1000 delegate:self];
+    YSBannerView * bannerView = [[YSBannerView alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, 100) placeholderBGImage:nil currentPage:0 showDataArr:_dataArray timeInterval:3 direction:(YSBannerViewLandscape) tag:1000 delegate:self];
     [self.view addSubview:bannerView];
     
     
